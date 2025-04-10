@@ -1,0 +1,117 @@
+/* Fullscreen Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh; /* Fullscreen height */
+    overflow: hidden; 
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    color: white;
+    margin: 20px 0;
+}
+
+.hero-section .btn-primary {
+    background-color: #ff6347;
+    border-color: #ff6347;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #e55347;
+    border-color: #e55347;
+    transform: translateY(-5px); /* Hover effect */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    margin-bottom: 0;
+}
+
+/* footer stays at the bottom */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative; 
+    bottom: 0;
+    width: 100%; 
+    margin-top: auto; 
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+main {
+    flex: 1; 
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+    .hero-section .btn-primary {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    transition: background-color 0.3s ease;
+}
+
+.card:hover .card-body {
+    background-color: #f8f9fa;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNDRAFTED | Products</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleDetails(id) {
+            const details = document.getElementById(id);
+            details.classList.toggle('d-none');
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">UNDRAFTED</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Listings -->
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Our Products</h1>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474229356_894875926061565_2267776649522375669_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHKXOYIgjgEJXR_0uytNJF6TJ7vpSy3cBlMnu-lLLdwGZ90aM-rE0wqHfyzO9c3grnXHN9MGuTcV_aR56NtDZHo&_nc_ohc=_Pt5nGFf00sQ7kNvwFyqvSz&_nc_oc=AdkijFQ03H_80LYI8ERNUfuaMW9w1ve-gf5fJIVecv94_x1kBtRjaT9TCpni9b4bz6w&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=z6McF3APsqgeFOLqeCA8Gw&oh=00_AfFJR1EmmJcvmReyKA1SVyWsY9okxwN_gAzmB9REkH6dDg&oe=67FC4C64" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Luther Tee</h5>
+                        <p class="card-text">₱800.00</p>
+                        <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details1')">View Details</a>
+                        <div id="details1" class="d-none mt-2">
+                            <p><strong>Description:</strong> Comfortable and stylish everyday tee.</p>
+                            <p><strong>Color:</strong> White</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474518383_894874396061718_7439070694413173654_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFFMEJvEvuNZc3qg05mmF1Zx47peMKVJQXHjul4wpUlBZkUPrtNYfZ0kn47S0ndBHteIz64fjdbDVmFrcGsASao&_nc_ohc=AAZMR5EbzskQ7kNvwFMZ5eG&_nc_oc=AdkK_sXTpGA8C5HajqAqBYIeSusuaqN3dnV0PHGiVyIfYfKBCChO975JG5OTDuBt_7s&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=nf3qZrmavrou05lhoKM2_A&oh=00_AfGhY5ANLb1EpUDmybzFds9A9aSvh6d30rmbx3r4SM6uTg&oe=67FC4DB7" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">F. Through Tee</h5>
+                        <p class="card-text">₱750.00</p>
+                        <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details2')">View Details</a>
+                        <div id="details2" class="d-none mt-2">
+                            <p><strong>Description:</strong> Premium soft cotton for the perfect fit.</p>
+                            <p><strong>Color:</strong> Purple</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474186599_894874206061737_1898045575794545885_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEfHJlqy-nktvtV4JNjfJW8THew5dL8sTBMd7Dl0vyxMGCxaSGFtsnold5IEibbCRK3j7kvLvCoQwuVqkSTuJrG&_nc_ohc=fAta5vjVT_QQ7kNvwFWB_wi&_nc_oc=AdlnU-0q-ftIXfG1w6OS4lQV07U4iSp5HrZaaRhND4HL1CuxwYEk3jOpfrfUiKJp0ZM&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=odE90Ag3ZGMr7fNJJvNCzQ&oh=00_AfE6sQ2CtkP5dnROtSNOdyIiVsejVrOa5cbi-KyaKUYhrA&oe=67FC6DE1" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Logo Glisten Tee</h5>
+                        <p class="card-text">₱800.00</p>
+                        <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details3')">View Details</a>
+                        <div id="details3" class="d-none mt-2">
+                            <p><strong>Description:</strong> Classic logo tee with a shiny finish.</p>
+                            <p><strong>Color:</strong> Black</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+<div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473764630_894874196061738_6825354245482615904_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeESBf7ivrfGB1d0dxSmbGu2Gd7_2DBZI2YZ3v_YMFkjZgb6E9FFNwfdGdaHjbRo50SipYV9Ri6zUBPGaUDmE30H&_nc_ohc=n5CZ5iCrMzMQ7kNvwFgxItH&_nc_oc=AdmxYBlytba77822cK2DCcjLCRCr760hsE7jvliXpwuzztsfpWmsjsyVZbudbd_1gR8&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=NQ-qKrc7ypaaHGF71U9jZw&oh=00_AfFd2fZWbzETl617wQrMkEpAmIMAb-xV28h1GdNMlqzcpg&oe=67FC763F" class="card-img-top" alt="M2G Tee">
+        <div class="card-body">
+            <h5 class="card-title">M2G Tee</h5>
+            <p class="card-text">₱700.00</p>
+            <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details4')">View Details</a>
+            <div id="details4" class="d-none mt-2">
+                <p><strong>Description:</strong> Classic M2G branding on a comfortable, everyday tee.</p>
+                <p><strong>Color:</strong> Light Pink</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 5 -->
+<div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/480296087_912590440956780_7840393946514198580_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEjmqk2mFIxwrUcvTfVS8togPS70U5EA9eA9LvRTkQD19EB0czZmymZZhJKUp0zTJS1tqRZKyOJcLIBjXQTXGkV&_nc_ohc=L5MT8FdOjZAQ7kNvwGWvRKM&_nc_oc=Adlu6FAJJjcwuiJgjVXfBrN15GDjTq5rvWPUYbk3l9b8gwzrc5BuTRD5PhieOCN1qR8&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=nD3WdzgjdvmZGiL4vTBpLw&oh=00_AfEDCuQts331Wp7jtPJT1Ndra3uW6Q6a5He0laZKoODJcA&oe=67FC66D4" class="card-img-top" alt="Community Tee">
+        <div class="card-body">
+            <h5 class="card-title">Community Tee</h5>
+            <p class="card-text">₱800.00</p>
+            <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details5')">View Details</a>
+            <div id="details5" class="d-none mt-2">
+                <p><strong>Description:</strong> Support your community with this tee that speaks volumes.</p>
+                <p><strong>Color:</strong> White</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 6 -->
+<div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474134289_894868596062298_197512900159062297_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEhSv-8oDQ4kyB3wZR_RfXMHbAV12wkT9YdsBXXbCRP1qJCmgZfDQVTG_zTOEiYS-bpKRr6yLZxKGkArPGyM7uq&_nc_ohc=tOOXToEpvwAQ7kNvwGh0BYe&_nc_oc=AdkfzrWJziJwOYkMRwFvzLzqWgQ2Qo_kQUCndnjv4xyvymUj5DZv92eUu-7JAOn0AsA&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=4lsnzi2V8AaZrqT_H2YReQ&oh=00_AfEM8yVgRO2ISSjWUK8iLLDxosSGjELKXn3J_4zk8TFzsQ&oe=67FC62C1" class="card-img-top" alt="YS Funda Quarter Zip-Polo">
+        <div class="card-body">
+            <h5 class="card-title">YS Funda Quarter Zip-Polo</h5>
+            <p class="card-text">₱1,400.00</p>
+            <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details6')">View Details</a>
+            <div id="details6" class="d-none mt-2">
+                <p><strong>Description:</strong> A modern take on the classic polo with a quarter zip design.</p>
+                <p><strong>Color:</strong> Black</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 7 -->
+<div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474182107_894868662728958_5601086931787411606_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHORNW7UiQmDX1SCuBw9_3rgug0vhyyNOuC6DS-HLI06yItvgzVCmOWwlhJNVZ-DTO2jEA68ebtFEPO7JHzJsAl&_nc_ohc=Z6n69b1C0osQ7kNvwEoI66M&_nc_oc=AdlUGxsD50BVRD9And6qDKrfQhMzPGzc2bGG5DI5JRTj5nfmMaMhXccv3Kmjujne4nk&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=6oRp12xu4ZYj1ymUEmbE1Q&oh=00_AfFSQwDYUpXj_bjIJxP1qvtZz3bVIDQvv4u5HUYmffd0DA&oe=67FC6983" class="card-img-top" alt="YS Funda Hoodie">
+        <div class="card-body">
+            <h5 class="card-title">YS Funda Hoodie</h5>
+            <p class="card-text">₱1,800.00</p>
+            <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details7')">View Details</a>
+            <div id="details7" class="d-none mt-2">
+                <p><strong>Description:</strong> Warm, cozy hoodie for everyday wear with a bold logo.</p>
+                <p><strong>Color:</strong> Black</p>
+            </div>
+        </div>
+    </div>
+</div>
+            <!-- Product 8 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474512916_894875896061568_7312365495449551502_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHXwZ4PHXVqd-K1ErHvkbrO2bjn1oALpVzZuOfWgAulXNFHraartOe0vYZzFwNN2SzVyGHXKeN9Ar6F6QS2GYuL&_nc_ohc=7Q8_nmU6LxoQ7kNvwFeJQSA&_nc_oc=AdkKlg7MxOqUQGX8etY3pdbehvmNSu2srde96dDnOImgy2YTVJRJq0XIgup6-57cK0I&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=aW7JkTStutZNpHnyhObHtg&oh=00_AfHzUA3qhAD49lHURCybx5LWAhYGH-yJzAc6yv7JLy2WIQ&oe=67FC5484" class="card-img-top" alt="Product 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Volt Gengar Mesh Shorts</h5>
+                        <p class="card-text">₱800.00</p>
+                        <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details8')">View Details</a>
+                        <div id="details8" class="d-none mt-2">
+                            <p><strong>Description:</strong> Comfortable mesh shorts perfect for lounging.</p>
+                            <p><strong>Color:</strong> Gengar Purple</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 9 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474619877_894870626062095_8682912261574302231_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFnipxegFiTwcTrddKDmTenvsoonrop5f--yiieuinl__K8SJHEe0dtmrhdoPveAL_fe6WI-V1qTLa9tNNERqsr&_nc_ohc=edNCFIhLzrkQ7kNvwHT_9Q4&_nc_oc=AdnDqFhY48M-l41zjA56Hhq7hojYBCanH-PcrVcQV4Orh2TI2IJAkIKpt09HrFn9zC0&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=rnOevddW8w_b02UoBh0o2A&oh=00_AfG4C4Tyrim0BjPMGCb-RJRqutM2nL19ware2KiIulzzPg&oe=67FC697F" class="card-img-top" alt="Product 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Volt Mono Mesh Shorts</h5>
+                        <p class="card-text">₱800.00</p>
+                        <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details9')">View Details</a>
+                        <div id="details9" class="d-none mt-2">
+                            <p><strong>Description:</strong> Stylish shorts designed for comfort and style.</p>
+                            <p><strong>Color:</strong> Black</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 10 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473821768_893593196189838_5083954402922938269_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGsWf5YvS0uRaFg6DVtbZSpmna5aQB-GgSadrlpAH4aBL_mNqakRzbkLMjY0KkHEQfbRmnq5Yyz91DePJLx_1g7&_nc_ohc=6jlZSM1wMkMQ7kNvwFzOSsc&_nc_oc=AdlZV86yB74iJVd74a7Jh9abF5HxpA_d14knhi5zVA-fjjkBQRf8IVp7rh8ZrELNlHQ&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=tCF75ROpTr_16HhlmlFh-w&oh=00_AfGC5ax7dWD5O1loB_68rRRnp0c2FjZsGxaklP3aAc0X6g&oe=67FC67CB" class="card-img-top" alt="Product 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Logo Old Rose Sweatpants</h5>
+                        <p class="card-text">₱1,400.00</p>
+                        <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details10')">View Details</a>
+                        <div id="details10" class="d-none mt-2">
+                            <p><strong>Description:</strong> Cozy sweatpants with a classic logo print.</p>
+                            <p><strong>Color:</strong> Old Rose</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 11 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473831050_893593236189834_1058749344738316820_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFoGu9YSD6IMeV-qRBzrsX01PLLV5112JXU8stXnXXYlcVbYvzcLTCNFfbAVMo2HlCB9DeLc5_l_BUZNdgLcVq4&_nc_ohc=mLDkW6Fs52MQ7kNvwFmL4l8&_nc_oc=AdkqLtuNZCK_hmiZJvtwm938JNwdYG12ZXjyFAaTNUcp5ZwIeysAWgHGza8B7mzGt6A&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=Mr5k_JJ07SZaUyaPtvtJFA&oh=00_AfFaUMCqkyEtHq_jFfA50UUvQhuKTPgrI8pkz1ufKw5nOg&oe=67FC5B23" class="card-img-top" alt="Product 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Logo Black Sweatpants</h5>
+                        <p class="card-text">₱1,400.00</p>
+                        <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details11')">View Details</a>
+                        <div id="details11" class="d-none mt-2">
+                            <p><strong>Description:</strong> Trendy sweatpants with the UNDRAFTED logo.</p>
+                            <p><strong>Color:</strong> Black</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 12 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473739582_893593202856504_1381342330746339543_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFNcIyympQ4pglApT2Pij5P-_bEz2Eu0WT79sTPYS7RZOMc7gwSVBIEsHgLUIVbCYHKiiMS_fggZxIoLtX8uErG&_nc_ohc=9wzM98MJqk0Q7kNvwFh0dk-&_nc_oc=AdmnuoqfjcB-LAgHI_2ma0Uf-YsP10L-IgsRcJTwjlauAbMr4b1totZu2yr8ZNnYaqA&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=lzJlaWJNNkwpLte1g5t6iA&oh=00_AfHXj8kVctg9mcFNjYcuIrW6NdJysWwqwKQ8__JOFVmMhA&oe=67FC6EE1" class="card-img-top" alt="Product 12">
+                 <div class="card-body">
+                      <h5 class="card-title">Boxy Polo Shirt Coolgrey</h5>
+                     <p class="card-text">₱1,000.00</p>
+                     <a href="javascript:void(0);" class="btn btn-primary" onclick="toggleDetails('details12')">View Details</a>
+                    <div id="details12" class="d-none mt-2">
+                           <p><strong>Description:</strong> A stylish and comfortable boxy polo shirt, perfect for casual wear.</p>
+                            <p><strong>Color:</strong> Coolgrey</p>
+                         </div>
+                       </div>
+                   </div>
+            </div>
+        
+            <div class="col-12 text-center my-5">               
+                <div class="row justify-content-center">
+                    <!-- 12 images -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473787769_893593122856512_7046160249951357886_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHV-GmseS4BhSTskx2tIwWzXnnqVIRRPvNeeepUhFE-8wfuT2_7CNBZa530B5BYbSSBgFiStXTv5b5V2vz6BOdT&_nc_ohc=Ln3GUV_g1M8Q7kNvwHwlMRV&_nc_oc=Adk5wuBdqs3zv1oLWQCVin5dU-2JLBbKaoAHu0wo1nHu7AOlJaEk2mF1Yz4tJyL74Eo&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=9NGbSNg_SMNEv3LITr2t-g&oh=00_AfGHQI_GqtKBbvweFfwW0Q-fR6NCkgHonycuV1fhHOpVyA&oe=67FD3073" class="model-img rounded" alt="1">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474113888_894869452728879_3240618181311087272_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE8AsRVOE1rR_-oRlIkFApnEKJS1XI04pQQolLVcjTilLHPKIuoNKltNB_bsMV8C5KipE5Uh5DjTfpav9kMfYiF&_nc_ohc=gar9xjCLcxwQ7kNvwFSifun&_nc_oc=Admke21Wo_TadVU5DsXnJlvTNkVH-54gwwknwYKor_dsrw9ouqFMhW5spkv2HpbDMtU&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=-TlfWMcrxX01jyFvhtS5Gg&oh=00_AfEY22eHRtRnZ11xhS4GBfZEkg2Rh29mojSBs7YIxwuXWA&oe=67FD2E04" class="model-img rounded" alt="2">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/480329753_912724864276671_5330157123526735846_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGr6HxBX0VTjGXRhxtcGoDdFTpb-hy862sVOlv6HLzra7NfS3gTYYcwHcUVQGVU9Kx_eXkkhhU-5uCN0IiNR_Ep&_nc_ohc=CAcnp3ktWM8Q7kNvwFjYZKb&_nc_oc=AdkC5dES8IBS0HMIJK50pERZcSwVz_9H65Vnq58Vv5pQhXZ1AZTLitmO5f9YiHZRkMw&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=kKJUb6fObR8QZxD5z8M4xA&oh=00_AfGzzC7klUaSbmsuO6UWZmvMNMknLtymyD8L2HvaLJIGIg&oe=67FD40E2" class="model-img rounded" alt="3">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473575994_893593799523111_611168217415088110_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH2PybqILDHOKPgtdLZIq9BFgXPhObru5oWBc-E5uu7mrGfPHAJbHDSw6Ktw-Dmz11Cb_A77aaptxIbd8reBLaP&_nc_ohc=hQcYsCihPgQQ7kNvwGyKLpW&_nc_oc=AdmuFFDnsBtAltIPlJjn-meOJVVxUf2TGI4ZfSpvA6A4cbUASPAL_p-12NuXZlt8ntc&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=pJuTYVnhfcwL4wqN3_cSIA&oh=00_AfGaizcfkh-ObpZijqG80fKNIlClKhhoOO0EMN4QSf86uA&oe=67FD47F3" class="model-img rounded" alt="4">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474584322_894872229395268_4173623027405709996_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHPELHDbUzCi9QM1HBrGza7euRVnculjgd65FWdy6WOB3E-5dBuaax9ZBf0ao7oEMxPBZf3-bkZvig5k-Hb6jr2&_nc_ohc=TU9yo1z0e1EQ7kNvwFCogNZ&_nc_oc=Adl_kkLHaoLKktWQDrEfgPft4M4jZn6XOUnjfMzcSLYb7nCafwWYyobODS2nf-m46tg&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=QTDjE_N-SFH49WSHRPLdog&oh=00_AfEE_9Bv8NhBDUcQUnjK5nARjKp7lnJqKupJVcDioSFB2w&oe=67FD31CB" class="model-img rounded" alt="5">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474191703_894867159395775_3848129223868583284_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEtJi0Rr2L1_uc3xF0djneq_luI4dZvCsb-W4jh1m8KxpJAdwMCf1Tsx4JjS0AgJUi3fp5qL7Vfo44Xm1EKGo6P&_nc_ohc=CHOkg27iB3MQ7kNvwEy0kIM&_nc_oc=AdkHp5c5MkskVzmoPdvC-wYejU7w9juFlYFxgjktaYiFELxWL2GRmusF-90pRjqOQXk&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=T6Dp1i1feYarQJRkrq4ciQ&oh=00_AfHWs6OWjAobKisqooqJx2TWPvgWCk2Bb7-gPTaxFsjxsg&oe=67FD3BDD" class="model-img rounded" alt="6">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474127861_894867029395788_8366789985249722399_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGPQB_mITBlKLlnxsijjdgHXsBTyFeBBTFewFPIV4EFMdlpBD-9Ba9kpZJAgKZHcMJzCiP31phzWtQanS00t5Dr&_nc_ohc=IEN21GxSSqsQ7kNvwFCda6y&_nc_oc=AdkHO3ah87LYx8VBZ-6GZ2b23huQucDe_yOyybzw5u8ve0QaLzYQ7NlkujJCUjw021U&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=m1wi6_hfxqTtiGv5RiUm3A&oh=00_AfGqe7x8zrsp08g2CShxCXnjvYQkxmDvpvsHrjixPr5ljg&oe=67FD42C1" class="model-img rounded" alt="7">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/474121678_893596142856210_2823695076257478067_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEeBMWHhLif7susHzI1a883RLZBrKsqSu1EtkGsqypK7b8X3LdhjvF9xquSrlnSp2iYq7EQbfR3-DcDZezEl05i&_nc_ohc=RqM82znTaO0Q7kNvwGdZ88q&_nc_oc=AdkUf64GOeniA2OA2gTUCXlyqAHBg6Yq9aqmtun9SGawLRC7-RYjS4OAlCuPH3fhgsA&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=qixSBebSjr0gU2-AQUE-zQ&oh=00_AfHHtGxgROvwbinDFu4AhFqBrcregPE3sgT0iixBrX3svA&oe=67FD34A8" class="model-img rounded" alt="8">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473264401_889610079921483_5082632392326607849_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFY07aRzgrishVtcnTh5b-3rkFK9zpVkKiuQUr3OlWQqNGfP9pgastDQptnJSG_qKMYOpCAF-y0x7EJ47z44N90&_nc_ohc=Fnoi07gaFlgQ7kNvwG8P6pl&_nc_oc=Adm9rM089_tAT9Dddgpvjzsjz-Opv8Og8qZ8MGIgI-Os6QYtJ6zKB1h5rpqknhiFCrM&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=5bTIEAZ2svzUJBUd6F6jTg&oh=00_AfHtWniY3ALBFSfCypmz5qaFyePp1V3DH69IKwkSzrORhg&oe=67FD20D1" class="model-img rounded" alt="9">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473389006_891219363093888_3165641131031769297_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG-N_QQET4jODg0wOzfrKGTMyYsey81n2kzJix7LzWfaZO3CO5RHBHbIo83aFy2HIk_5kxQfcDtGNXaEgqJCM63&_nc_ohc=CTE15Yd47lUQ7kNvwFC4iIG&_nc_oc=AdmjrOtmThTWHSjYqxrIOb4Pxqx-knyxd7D_XrLDT59beOIWHJCpqUAdRkfiJu8L1eU&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=NLKWoyMeQuAxNKtMQ4ub0Q&oh=00_AfGrkkVFRKPyohAplAMHEmYCjs_XB_CRV1hLd7Q5VZsktA&oe=67FD2A79" class="model-img rounded" alt="10">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473365922_891200426429115_282375750340501510_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE9LptYaO9W86lCVXJ7pdl0hc2IDpz7cGCFzYgOnPtwYGONy0rfVDFAbVLA--2sOdGFG1rPY_Crq1hgeAMdKC8q&_nc_ohc=UVtG2E1IRu4Q7kNvwForO9z&_nc_oc=AdmSC6rbglVr1WtqPU6uOvTSBAP75cuF-R6hgHEZ5tHH212M0tFXyKouHueBk1M_aZg&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=NpzBL9w8jtIVtEO0GvqvxA&oh=00_AfFcaoUYNz54vchLHg8ViCoIDVGErjfqpxgnQ7YHgPqU6g&oe=67FD3308" class="model-img rounded" alt="11">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/473424001_891194513096373_8589797340343926785_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHgTRuD9AKMImj2VHdk5cZRSgctN_KP1hVKBy038o_WFZfHRstA6HqDM6dWw0rmEoH0eIvoX2itaq-zaJou2DJi&_nc_ohc=oQNyoS_qBwEQ7kNvwFaBxAW&_nc_oc=AdnSMDH74BMuo3lr5nqOiQjEnoMLOIKOoZVve2dyYo7peXJQljxjm8GkbD-BkDnyfHg&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=SYNNE_ErtjEd6UTVv-aUAg&oh=00_AfE3CVKVA-VmZ89o0Umx65wj9d8SbbxLf8whYyevMVwPCQ&oe=67FD2FBE" class="model-img rounded" alt="12">
+                    </div>
+                </div>
+            </div>
+            
+            <style>
+                .model-img {
+                    width: 200px;
+                    height: 250px;
+                    object-fit: cover;
+                }
+            
+                .model-col {
+                    display: flex;
+                    justify-content: center;
+                    padding: 10px;
+                }
+            </style>
+            
+            
+        </div>
+    </div>
+      </div>
+</div>
+      
+    <footer class="text-center py-4">
+    <p>&copy; 2025 UNDRAFTED. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
